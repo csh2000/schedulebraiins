@@ -1,1 +1,1 @@
-20 14 * * * sed -i 's/^frequency = .*/frequency = 400/' /etc/bosminer.toml && sed -i 's/^voltage = .*/voltage = 12.2/' /etc/bosminer.toml && /etc/init.d/bosminer restart
+16 14 * * * sed -i 's/^frequency = .*/frequency = 400/' /etc/bosminer.toml && sed -i 's/^voltage = .*/voltage = 12.2/' /etc/bosminer.toml && /etc/init.d/bosminer restart
